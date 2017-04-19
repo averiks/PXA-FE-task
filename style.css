@@ -1,0 +1,285 @@
+
+
+body {
+  background-color: #FFF;
+  font-family: Poppins, sans-serif;
+}
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 100%;
+  border-bottom: 4px solid #e4e4e4;
+}
+
+.navigation{
+  max-width: 1170px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu li {
+  display: inline;
+  float: left;
+  padding: 0px 10px;
+}
+
+.menu li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*how to color icons, make space between icons and text*/
+.menu li span{
+  color: #47a5de;
+}
+
+.nav-icons li{
+  display: inline;
+  float: right;
+  padding: 0px 10px;
+}
+
+.nav-icons li a {
+  color: #000;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  text-decoration: none;
+} 
+
+.logo-spot{
+  max-width: 1170px;
+  height: 160px;
+  line-height: 160px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-spot h1{
+width: 190px;
+float: left;  
+font-size: 40px;
+margin: 0px 0px 0px 49px;
+padding: 0;
+}
+
+ #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+        float: right;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        border: 1px solid #000;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        border: 1px solid #000;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+    /*.search{
+float: right;
+width: 153px;
+font-size: 20px;
+border: 1px solid #000;
+margin: 0px 46px 0px 0px;
+}
+
+.logo-spot a{
+width: 153px;
+height: 29px;
+margin: 0;
+font-size: 20px;
+border: 1px solid #000;
+
+}*/
+
+.slider{
+  width: 100%;
+  height: 336px;
+  background-color: #efefef;
+}
+
+.white-mountain{
+  max-width: 1170px;
+  height: 336px;
+  margin:0 auto;
+  background: url("images/mountain-background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.slider-text{
+  width: 50%;
+  height: 336px;
+  background-color: #ffffff;
+  padding: 58px 29px 59px 51px;
+  text-align: right;
+  /*why can't move more to the right side? because of search?*/
+  margin-left: 437px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.slider-text h1{
+  font-size: 46px;
+}
+
+.slider-text p{
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.btn {
+color: #FFF;
+background-color: #47a5de;
+border: 1px solid #47a5de;
+font-size: 14px;
+font-weight: 500;
+margin-bottom: 48px;
+padding: 13px 18px 12px 24px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.btn:hover {
+background-color: #FFF;
+border: 1px solid #47a5de;
+color: #47a5de;
+}
+
+
+.clear:after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+/*
+ .logo a {
+  padding: 10px 10px;
+
+  margin: auto 0;
+  
+  color: #000;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+*/
+
+
+.services{
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.service{
+  display: inline-block;
+  margin: 80px 5px 80px 5px;
+  text-align: center;
+  width: 30%;
+  }
+
+.services a{
+  border: 1px solid #d2d2d2;
+  margin-top: 25px;
+  padding: auto;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  padding: 11px 15px 12px 18px;
+}
+
+/*переписати код*/
+.services img{
+  border-style: solid;
+  border-color: #000;
+  border-radius: 100%;
+  width: 106px;
+  height: 106px;
+}
+
+.services-boxes{
+  margin: 0 auto;
+  width: 75%;
+  position: relative;
+}
+
+.services-boxes li{
+  display: inline-block;
+  /*margin has to be 15px on the left and right*/
+  text-align: left;
+  width: 33%;
+}
+
+
+.services-boxes li a{
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.partners{
+  width: 75%;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.partners li{
+  display: inline-block;
+  margin: auto;
+}
+
+.footer{
+  width: 100%;
+  height: 367px;
+  background-color: deepskyblue;
+}
+
+.contacts{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.address{
+  display: inline-block;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  width: 33%;
+  color: #FFF;
+}
+
+.rights{
+  width: 75%;
+  height: 85px;
+  margin: auto 0;
+  font-size: 18px;
+}
